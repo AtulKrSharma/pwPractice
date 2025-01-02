@@ -13,4 +13,9 @@ test.describe('dummy scenarios', () => {
     await page.goto('https://www.timesnownews.com/');
     expect(page.title).toBe('timesNow111');
   });
+
+  test('test-2', async ({ page }) => {
+    await page.goto('https://www.timesnownews.com/');
+    expect(page.title).toBe('timesNow');
+  });
 });
