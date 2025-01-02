@@ -1,20 +1,20 @@
-// {
-//     "compilerOptions": {
-//       "target": "ES6",                       // Target modern JavaScript for browser compatibility.
-//       "module": "CommonJS",                  // Use CommonJS for Node.js compatibility.
-//       "strict": true,                        // Enable strict type-checking for better code quality.
-//       "esModuleInterop": true,               // Ensure compatibility with CommonJS/ESModules.
-//       "baseUrl": ".",                        // Base directory for resolving module paths.
-//       "paths": {                             // Module aliasing for cleaner imports.
-//         "@e2e/*": ["tests/e2e/*"],
-//         "@utils/*": ["tests/utils/*"]
-//       },
-//       "rootDir": "./",                       // Root directory for TypeScript source files.             
-//       "resolveJsonModule": true,             // Allows importing JSON files.
-//       "types": ["node", "playwright"],       // Include Playwright and Node.js types.
-//       "skipLibCheck": true                   // Skip checking declaration files.
-//     },
-//     "include": ["tests/**/*.ts","tests/utils/**/*.ts"],  // Include all TypeScript files in the tests directory.
-//     "exclude": ["node_modules", "dist"]      // Exclude compiled output and dependencies.
-//   }
+{
+    "compilerOptions": {
+      "target": "ES6",                       // Target modern JavaScript for browser compatibility.
+      "module": "CommonJS",                  // Use CommonJS for Node.js compatibility.
+      "strict": true,                        // Enable strict type-checking for better code quality.
+      "esModuleInterop": true,               // Ensure compatibility with CommonJS/ESModules.
+      "baseUrl": ".",                        // Base directory for resolving module paths.
+      "paths": {                             // Module aliasing for cleaner imports.
+        "@e2e/*": ["tests/e2e/*"],
+        "@utils/*": ["tests/utils/*"]
+      },
+      "rootDir": "./",                       // Root directory for TypeScript source files.             
+      "resolveJsonModule": true,             // Allows importing JSON files.
+      "types": ["node", "playwright"],       // Include Playwright and Node.js types.
+      "skipLibCheck": true                   // Skip checking declaration files.
+    },
+    "include": ["tests/**/*.ts"],  // Include all TypeScript files in the tests directory.
+    "exclude": ["node_modules"]      // Exclude compiled output and dependencies.
+  }
   
