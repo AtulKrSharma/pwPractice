@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Dhani",
+        "age": 10,
+        "role": "ElderChild"
+    },
+    {
+        "name": "Atul",
+        "age": 40,
+        "role": "Parent"
+    },
+    {
+        "name": "Paresh",
+        "age": 90,
+        "role": "GParent"
+    }
+]
